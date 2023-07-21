@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="495.0" prefWidth="663.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.adminController">
+   <children>
+      <Label alignment="CENTER" prefHeight="63.0" prefWidth="663.0" style="-fx-font-weight: BOLD; -fx-background-color: #2B86C5#87CEFA;" text="ADMIN INFORMATION" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="22.0" layoutY="86.0" mnemonicParsing="false" onAction="#onChangepass" prefHeight="54.0" prefWidth="168.0" style="-fx-background-radius: 25px; -fx-font-weight: bold; -fx-background-color: #3366FF;" text="Change password" textFill="WHITE" />
+      <Button layoutX="22.0" layoutY="173.0" mnemonicParsing="false" onAction="#onEditStudent" prefHeight="54.0" prefWidth="168.0" style="-fx-background-radius: 25px; -fx-font-weight: bold; -fx-background-color: #3366FF;" text="Edit student info" textFill="WHITE" />
+      <Button layoutX="22.0" layoutY="255.0" mnemonicParsing="false" onAction="#onAddStudent" prefHeight="54.0" prefWidth="168.0" style="-fx-background-radius: 25px; -fx-font-weight: bold; -fx-background-color: #3366FF;" text="Add student" textFill="WHITE" />
+      <Button layoutX="22.0" layoutY="335.0" mnemonicParsing="false" onAction="#onDeleteStudent" prefHeight="54.0" prefWidth="168.0" style="-fx-background-radius: 25px; -fx-font-weight: bold; -fx-background-color: #3366FF;" text="Delete student" textFill="WHITE" />
+      <Label layoutX="270.0" layoutY="105.0" prefHeight="29.0" prefWidth="53.0" style="-fx-font-weight: bold;" text="ID">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Label>
+      <Label fx:id="idlbe" layoutX="397.0" layoutY="104.0" prefHeight="30.0" prefWidth="232.0" style="-fx-font-weight: bold;">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="271.0" layoutY="158.0" prefHeight="30.0" prefWidth="105.0" style="-fx-font-weight: bold;" text="Name">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="namelbe" layoutX="397.0" layoutY="158.0" prefHeight="30.0" prefWidth="232.0" style="-fx-font-weight: bold;">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="270.0" layoutY="227.0" prefHeight="30.0" prefWidth="115.0" style="-fx-font-weight: bold;" text="Department">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="delbe" layoutX="397.0" layoutY="227.0" prefHeight="30.0" prefWidth="232.0" style="-fx-font-weight: bold;">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="270.0" layoutY="294.0" prefHeight="30.0" prefWidth="115.0" style="-fx-font-weight: bold;" text="Phone number">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="phonelbe" layoutX="415.0" layoutY="294.0" prefHeight="30.0" prefWidth="232.0" style="-fx-font-weight: bold;">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="270.0" layoutY="362.0" prefHeight="30.0" prefWidth="115.0" style="-fx-font-weight: bold;" text="Email">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="emaillbe" layoutX="415.0" layoutY="362.0" prefHeight="30.0" prefWidth="232.0" style="-fx-font-weight: bold;">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="487.0" layoutY="424.0" mnemonicParsing="false" onAction="#onBackLogin" prefHeight="46.0" prefWidth="88.0" style="-fx-background-radius: 25px; -fx-background-color: #33FF66; -fx-font-weight: bold;" text="Back" />
+   </children>
+</AnchorPane>

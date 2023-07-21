@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="start" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #00BFFF;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label layoutX="213.0" layoutY="34.0" prefHeight="44.0" prefWidth="165.0" style="-fx-font-weight: bold;" text="WELCOME TO THE" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+       <Label alignment="CENTER" layoutX="149.0" layoutY="78.0" prefHeight="67.0" prefWidth="301.0" style="-fx-font-weight: bold;" text="STUDENT MANAGEMENT SYSTEM" textAlignment="CENTER" textFill="#fffcfc">
+           <font>
+               <Font size="18.0" />
+           </font>
+       </Label>
+      <Button layoutX="228.0" layoutY="200.0" mnemonicParsing="false" onAction="#onlogin" prefHeight="51.0" prefWidth="134.0" style="-fx-font-weight: bold; -fx-background-color: #ffff; -fx-background-radius: 25px;" text="Login" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="228.0" layoutY="279.0" mnemonicParsing="false" onAction="#onsignup" prefHeight="51.0" prefWidth="134.0" style="-fx-font-weight: bold; -fx-background-color: #00FF00; -fx-background-radius: 25px;" text="Sign up" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="683.0" prefWidth="712.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.AddStudent">
+    <children>
+        <Label alignment="CENTER" prefHeight="90.0" prefWidth="712.0" style="-fx-font-weight: BOLD; -fx-background-color: #0099FF;" text="ADD STUDENT INFO" textFill="WHITE">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="123.0" layoutY="109.0" prefHeight="34.0" prefWidth="67.0" style="-fx-font-weight: BOLD;" text="ID">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="123.0" layoutY="156.0" prefHeight="34.0" prefWidth="61.0" style="-fx-font-weight: bold;" text="Name">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="nametxt" layoutX="258.0" layoutY="158.0" prefHeight="26.0" prefWidth="347.0">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <Label layoutX="120.0" layoutY="205.0" prefHeight="34.0" prefWidth="98.0" style="-fx-font-weight: bold;" text="Department">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="detxt" layoutX="258.0" layoutY="205.0" prefHeight="26.0" prefWidth="347.0">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <Label layoutX="120.0" layoutY="253.0" prefHeight="34.0" prefWidth="98.0" style="-fx-font-weight: bold;" text="Phone number">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="phonetxt" layoutX="258.0" layoutY="255.0" prefHeight="26.0" prefWidth="347.0">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <Label layoutX="120.0" layoutY="295.0" prefHeight="34.0" prefWidth="61.0" style="-fx-font-weight: bold;" text="Email">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="emailtxt" layoutX="258.0" layoutY="297.0" prefHeight="26.0" prefWidth="347.0">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <Label layoutX="120.0" layoutY="338.0" prefHeight="34.0" prefWidth="104.0" style="-fx-font-weight: bold;" text="FatherName">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="fathertxt" layoutX="258.0" layoutY="340.0" prefHeight="26.0" prefWidth="347.0">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <Label layoutX="120.0" layoutY="385.0" prefHeight="34.0" prefWidth="104.0" style="-fx-font-weight: bold;" text="MotherName">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="momtxt" layoutX="258.0" layoutY="387.0" prefHeight="26.0" prefWidth="347.0">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <Label layoutX="123.0" layoutY="432.0" prefHeight="34.0" prefWidth="61.0" style="-fx-font-weight: bold;" text="Year">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="yeartxt" layoutX="258.0" layoutY="434.0" prefHeight="26.0" prefWidth="347.0">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <Label layoutX="123.0" layoutY="481.0" prefHeight="34.0" prefWidth="61.0" style="-fx-font-weight: bold;" text="Semester">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="setxt" layoutX="258.0" layoutY="483.0" prefHeight="26.0" prefWidth="347.0">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <Label layoutX="123.0" layoutY="527.0" prefHeight="34.0" prefWidth="61.0" style="-fx-font-weight: bold;" text="Address">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="addtxt" layoutX="258.0" layoutY="529.0" prefHeight="26.0" prefWidth="347.0">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <Label layoutX="123.0" layoutY="571.0" prefHeight="34.0" prefWidth="61.0" style="-fx-font-weight: bold;" text="Result">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="resulttxt" layoutX="258.0" layoutY="573.0" prefHeight="26.0" prefWidth="347.0">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <Button layoutX="258.0" layoutY="622.0" mnemonicParsing="false" onAction="#onCrearStudent" prefHeight="42.0" prefWidth="158.0" style="-fx-background-color: #00FFCC; -fx-background-radius: 25px; -fx-font-weight: bold;" text="Confirm" />
+        <Button layoutX="507.0" layoutY="622.0" mnemonicParsing="false" onAction="#onBackAdmin" prefHeight="42.0" prefWidth="91.0" style="-fx-font-weight: bold; -fx-background-radius: 25px; -fx-background-color: #00FFFF;" text="Back" />
+      <TextField fx:id="idtxt" layoutX="258.0" layoutY="114.0" prefHeight="26.0" prefWidth="347.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+    </children>
+</AnchorPane>

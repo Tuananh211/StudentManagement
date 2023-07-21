@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="signup" fx:id="signup" prefHeight="606.0" prefWidth="707.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.SignUp">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutY="-1.0" prefHeight="68.0" prefWidth="708.0" style="-fx-font-weight: BOLD; -fx-background-color: #2B86C5;" text=" SIGN UP" textAlignment="CENTER" textFill="#f0f0f0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="58.0" layoutY="96.0" prefHeight="39.0" prefWidth="77.0" style="-fx-font-weight: BOLD;" text="ID:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="idtxt" layoutX="224.0" layoutY="102.0" prefHeight="26.0" prefWidth="297.0" />
+       <Label layoutX="58.0" layoutY="153.0" prefHeight="39.0" prefWidth="77.0" style="-fx-font-weight: BOLD;" text="Password:">
+           <font>
+               <Font size="14.0" />
+           </font>
+       </Label>
+       <TextField fx:id="codetxt" layoutX="224.0" layoutY="472.0" prefHeight="26.0" prefWidth="297.0" />
+       <Label layoutX="58.0" layoutY="212.0" prefHeight="39.0" prefWidth="77.0" style="-fx-font-weight: BOLD;" text="Name:">
+           <font>
+               <Font size="14.0" />
+           </font>
+       </Label>
+       <TextField fx:id="departtxt" layoutX="224.0" layoutY="405.0" prefHeight="26.0" prefWidth="297.0" />
+       <Label layoutX="58.0" layoutY="276.0" prefHeight="39.0" prefWidth="112.0" style="-fx-font-weight: BOLD;" text="Phone number:">
+           <font>
+               <Font size="14.0" />
+           </font>
+       </Label>
+       <TextField fx:id="emailtxt" layoutX="224.0" layoutY="339.0" prefHeight="26.0" prefWidth="297.0" />
+       <Label layoutX="58.0" layoutY="333.0" prefHeight="39.0" prefWidth="77.0" style="-fx-font-weight: BOLD;" text="Email:">
+           <font>
+               <Font size="14.0" />
+           </font>
+       </Label>
+       <TextField fx:id="phonetxt" layoutX="224.0" layoutY="282.0" prefHeight="26.0" prefWidth="297.0" />
+       <Label layoutX="58.0" layoutY="399.0" prefHeight="39.0" prefWidth="104.0" style="-fx-font-weight: BOLD;" text="Department:">
+           <font>
+               <Font size="14.0" />
+           </font>
+       </Label>
+       <TextField fx:id="nametxt" layoutX="224.0" layoutY="218.0" prefHeight="26.0" prefWidth="297.0" />
+       <Label layoutX="60.0" layoutY="466.0" prefHeight="39.0" prefWidth="150.0" style="-fx-font-weight: BOLD;" text="Authentication code:">
+           <font>
+               <Font size="14.0" />
+           </font>
+       </Label>
+       <PasswordField fx:id="passtxt" layoutX="224.0" layoutY="159.0" prefHeight="26.0" prefWidth="297.0" />
+      <Button layoutX="223.0" layoutY="528.0" mnemonicParsing="false" onAction="#onConfirm" prefHeight="39.0" prefWidth="298.0" style="-fx-font-weight: bold; -fx-background-radius: 25px; -fx-background-color: #16A085;" text="CONFIRM" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="593.0" layoutY="547.0" mnemonicParsing="false" onAction="#onBack" prefHeight="39.0" prefWidth="90.0" style="-fx-font-weight: bold; -fx-background-radius: 25px; -fx-background-color: #4158D0;" text="Back" textAlignment="CENTER" textFill="WHITE" />
+   </children>
+</AnchorPane>

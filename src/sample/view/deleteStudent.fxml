@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.DeleteStudent">
+   <children>
+      <Label alignment="CENTER" layoutY="-3.0" prefHeight="78.0" prefWidth="603.0" style="-fx-background-color: #0099FF; -fx-font-weight: BOLD;" text="DELETE STUDENT" textFill="#fffefe">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="120.0" layoutY="109.0" prefHeight="51.0" prefWidth="100.0" style="-fx-font-weight: bold;" text="Student ID">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="listID" layoutX="251.0" layoutY="116.0" prefHeight="32.0" prefWidth="162.0" style="-fx-background-radius: 25px;" />
+       <Button layoutX="253.0" layoutY="267.0" mnemonicParsing="false" onAction="#onDelete" prefHeight="42.0" prefWidth="158.0" style="-fx-background-color: #00FFCC; -fx-background-radius: 25px; -fx-font-weight: bold;" text="Confirm Delete" />
+       <Button layoutX="484.0" layoutY="339.0" mnemonicParsing="false" onAction="#onBackAdmin" prefHeight="42.0" prefWidth="91.0" style="-fx-font-weight: bold; -fx-background-radius: 25px; -fx-background-color: #00FFFF;" text="Back" />
+   </children>
+</AnchorPane>
